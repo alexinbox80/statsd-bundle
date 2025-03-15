@@ -1,0 +1,19 @@
+{
+  "name": "alexinbox80/statsd-bundle",
+  "version": "0.0.1",
+  "type": "symfony-bundle",
+  "description": "Provides configure MetricsStorage to send metrics to graphite",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.3",
+    "slickdeals/statsd": "^3.2"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "StatsdBundle\\": "src/"
+    }
+  }
+}
